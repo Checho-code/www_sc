@@ -21,9 +21,9 @@ if (!empty($_POST["enviar"])) {
         $datos = '';
         $correo =$_POST['correo'];
 
-        $buscar_usuario = mysqli_query($conexion, "SELECT nombre_usuario,(aes_decrypt(clave,'AES'))AS recup FROM usuarios WHERE email ='$correo'");
+        $buscar_usuario = mysqli_query($conexion, "SELECT nombre_usuario,rku FROM usuarios WHERE email ='$correo'");
         $row_usuario = mysqli_fetch_assoc($buscar_usuario);
-        $password = $row_usuario['recup'];
+        $password = $row_usuario['rku'];
         $nom=$row_usuario['nombre_usuario'];
 
         if ($row_usuario >= 1) {
@@ -46,7 +46,7 @@ if (!empty($_POST["enviar"])) {
 
                 //Content
                 $mail->isHTML(true);
-                $mail->Subject = 'Recuperacion de clave';
+                $mail->Subject = 'Peticion hecha en la web <b>Sol-Comercial</b>';
                 $mail->Body = 'Hola que tal Señor(a) <b>'. $nom . '</b>, esta es su contraseña <b>' . $password . '</b>, por favor guardala en un lugar seguro, recuerda que <b>Solcomercial</b> esta para servirte ';
 
 ?>

@@ -20,11 +20,10 @@
 </head>
 
 <body>
-
+<p style="background-color: lawngreen;">Error: No abre la sesion de index, revisar y solucionar</p>
   <!-- Formulario login -->
   <div class="cont_ppal">
     <div class="form_login">
-
 
 
 
@@ -32,15 +31,15 @@
         <div class="cont-img ">
           <img src="img/sistema/logo.png" alt="Solcomercial" class="logo" />
         </div>
+    <?php
+          include 'inicio_sesion.php';
+          ?>
         <div class="cont-img">
           <h3 id="titulo">Iniciar Sesión </h3>
         </div>
 
         <div class="tabla">
-          <?php
-          include "c_Login.php";
-
-          ?>
+         
 
           <div class="entradas">
             <label for="correo">E-mail</label>
@@ -60,7 +59,7 @@
 
           <div class="botonera">
             <a href="f_registro.php" class="btn-registro">Registrarme</a>
-            <button type="submit" name="btnLogin" value="ok" class="btn-ingreso">Ingresar</button>
+            <button type="submit" name="btn-login" value="ok" class="btn-ingreso">Ingresar</button>
           </div>
         </div>
       </form>

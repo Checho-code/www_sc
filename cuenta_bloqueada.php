@@ -32,7 +32,7 @@ session_start();
 	<div class="row">
 	
 <div class="col-sm-12">
-<h1>Cuenta bloqueada por intentos fallidos de acceso</h1>
+<h1>Cuenta bloqueada por intentos de acceso fallidos</h1>
 </div>
 </div>
 	
