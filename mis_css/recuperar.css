@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont_ppal {
+    background-color: #177c03;
+    width: 30rem;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 30px;
+
+}
+
+.form_login {
+    width: 27rem;
+    margin: 30px auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.cont-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.entradas {
+    width: 80%;
+    margin: 20px 0px 20px 40px;
+    font-size: 1em;
+}
+
+label {
+    margin-left: 20px;
+}
+
+input {
+    width: 85%;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    border: solid 1px #177c03;
+}
+
+.botonera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+}
+
+.btn-ingreso {
+    width: 130px;
+    font-size: 1em;
+    font-weight: 700;
+    background-color: #177c03;
+    border-radius: 5px;
+    border: none;
+    color: antiquewhite;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-registro {
+    width: 130px;
+    font-size: 1em;
+    font-weight: 700;
+    background-color: #ffbb00;
+    border-radius: 5px;
+    border: none;
+    color: #177c03;
+    padding: 10px;
+    margin-right: 10px;
+    text-align: center;
+    text-decoration: none;
+}

@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+header{background:#2c3e50;
+color:#fff;
+}
+.main{background:#f2f2f2;
+color:#000000;
+}
+color1{background:#34495e;
+color:#fff;
+}
+aside{background:#c0392c;
+/*color:#fff;*/
+}
+footer{background:#177c03;
+/*color:#090294;*/}
+.pub{color:#000000;}
+.rojo{background-color:#FB0105; border-radius: 3px; padding-left: 5px; margin-left: 5px;}
+.Invisible{display: none;}
+.nover{display: none;}
+
+
+
+
